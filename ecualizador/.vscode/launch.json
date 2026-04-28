@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ FPS EQ — Modo Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--demo"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "▶ FPS EQ — Arduino COM3",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--port", "COM3"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "▶ FPS EQ — Arduino Linux",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["--port", "/dev/ttyUSB0"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
